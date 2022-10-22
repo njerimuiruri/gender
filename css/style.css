@@ -14,7 +14,7 @@
 }
 
 *{
-   font-family: 'Poppins', sans-serif;
+   font-family: 'nunito', sans-serif;
    margin:0; padding:0;
    box-sizing: border-box;
    outline: none; border:none;
@@ -91,12 +91,12 @@ section{
 
 .header{
    position: sticky;
-   top:0; left:0; right:0;
+  top: -100px; left:0; right:0;
    z-index: 1000;
    background-color: var(--white);
    display: flex;
-   padding-top: 2rem;
-   padding-bottom: 2rem;
+   padding-top: 1rem;
+   padding-bottom: 1rem;
    box-shadow: var(--box-shadow);
    align-items: center;
    justify-content: space-between;

@@ -25,9 +25,9 @@
    <a href="home.php" class="logo">GBV</a>
 
    <nav class="navbar">
-      <a href="about.php">About</a>
-      <a href="package.php">Report</a>
-      <a href="book.php" style=" color:red; font-weight:900;" >Help</a>
+      <a href="about.html">About</a>
+      <a href="report.html">Report</a>
+      <a href="#" style=" color:red; font-weight:900;" onclick="myfunction()" >Help</a>
    </nav>
 
    <div id="menu-btn" class="fas fa-bars"></div>
@@ -40,36 +40,11 @@
 
 <section class="home">
 
-   <div class="swiper home-slider">
 
-      <div class="swiper-wrapper">
 
-         <div class="swiper-slide slide" style="background:url(images/g1.jpg) no-repeat">
-            <div class="content">
-              
-            </div>
-         </div>
-
-         <div class="swiper-slide slide" style="background:url(images/self.png) no-repeat">
-
-            <div class="content">
-               
-            </div>
-         </div>
-
-         <div class="swiper-slide slide" style="background:url(images/girls.png) no-repeat">
-
-            <div class="content">
-               
-            </div>
-         </div>
-         
-      </div>
-
-      <div class="swiper-button-next"></div>
-      <div class="swiper-button-prev"></div>
-
-   </div>
+<div class="heading" style="background:url(images/girls.png) no-repeat">
+   <h1></h1>
+</div>
 
 </section>
 
@@ -84,8 +59,10 @@
 <section class="home-offer">
    <div class="content">
       <h3>Who are we</h3>
-      <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Iure tempora assumenda, debitis aliquid nesciunt maiores quas! Magni cumque quaerat saepe!</p>
-      <a href="book.php" class="btn">Learn More</a>
+      <p> Gender-based violence (GBV) is perhaps the most widespread and socially
+    tolerated human rights violation in Kenya. About 39 percent of women and girls in Kenya aged 15 and above have experienced physical violence, with approximately one in four experiencing such violence each
+    year.</p>
+      <a href="#" class="btn">Learn More</a>
    </div>
 </section>
 
@@ -108,8 +85,8 @@
          </div>
          <div class="content">
             
-            <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Eos, sint!</p>
-            <a href="book.php" class="btn">Report</a>
+            <p> </p>
+            <a href="report.html" class="btn">Report</a>
          </div>
       </div>
 
@@ -120,8 +97,8 @@
          </div>
          <div class="content">
           
-            <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Eos, sint!</p>
-            <a href="book.php" class="btn">About</a>
+            <p>  </p>
+            <a href="about.html" class="btn">About</a>
          </div>
       </div>
       
@@ -132,8 +109,7 @@
          </div>
          <div class="content">
            
-            <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Eos, sint!</p>
-            <a href="book.php" class="btn">Follow Up</a>
+            <a href="#" class="btn">Follow Up</a>
          </div>
       </div>
 
@@ -158,8 +134,8 @@
 
       <div class="box">
          <h3>Explore</h3>
-         <a href="#">  About us</a>
-         <a href="#">  Report</a>
+         <a href="about.html">  About us</a>
+         <a href="report.html">  Report</a>
          <a href="#">  Help</a>
 
       </div>
@@ -189,6 +165,12 @@
 
 <!-- custom js file link  -->
 <script src="js/script.js"></script>
+<script>
+   
+   function myfunction(){
+      alert('Help on the way')
+   }
+</script>
 
 </body>
 </html>
